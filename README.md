@@ -1,2 +1,2 @@
-# Clculadora
+# Calculadora
 Projeto em typescript
