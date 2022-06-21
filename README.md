@@ -1,0 +1,2 @@
+# Clculadora
+Projeto em typescript
