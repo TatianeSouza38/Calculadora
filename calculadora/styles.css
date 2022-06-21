@@ -1,0 +1,63 @@
+       *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-image: url(math1.jpg);
+        }
+
+        .fundo{
+
+            height: 100vh;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .calculadora{
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .botao{
+            width: 50px;
+            height: 50px;
+            font-size: 25px;
+            cursor: pointer;
+            margin: 2px;
+            background-color: black;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .calc{
+            background-color: rgb(255, 153, 0);
+            color: black;
+        }
+        .del{
+            background-color: rgb(221, 10, 10);
+            color: black;
+        }
+    
+        .botao:hover{
+            background-color: rgb(29, 29, 29);
+        }
+
+        #resultado{
+            background-color: rgb(179, 174, 174);
+            width: 207px;
+            height: 50px;
+            margin: 5px;
+            font-size: 25px;
+            color: black;
+            text-align: right;
+            padding: 5px;
+            word-wrap: break-word;
+            border-bottom: 5px solid rgb(70, 70, 70);
+            border-left: 5px solid rgb(70, 70, 70);
+        }
